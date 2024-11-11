@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Video_001_Components.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:ui="clr-namespace:Video_001_Components.SDK.UI"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout>
+        <ui:HeaderComponentView ComponenteCarregado="BaseContentView_OnComponenteCarregado" />
+    </StackLayout>
+
+</ContentPage>
